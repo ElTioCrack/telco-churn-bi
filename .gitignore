@@ -1,33 +1,52 @@
-# === Python & Jupyter ===
+# === Python ===
 __pycache__/
 *.py[cod]
 *$py.class
-.ipynb_checkpoints/
-.virtualenv/
-env/
+*.so
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# === Entornos virtuales ===
+.venv/
 venv/
+env/
+.virtualenv/
 .env
 
-# === Data (No subir datasets pesados a Git) ===
+# === Jupyter / notebooks ===
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# === Data (evitar subir datasets pesados o resultados temporales) ===
 data/raw/*
 !data/raw/.gitkeep
 data/processed/*
 !data/processed/.gitkeep
 
-# === LaTeX (Basura de compilación) ===
+# === LaTeX (archivos temporales de compilación) ===
 report_latex/*.aux
+report_latex/*.bbl
+report_latex/*.bcf
+report_latex/*.blg
+report_latex/*.fdb_latexmk
+report_latex/*.fls
 report_latex/*.log
-report_latex/*.toc
-report_latex/*.synctex.gz
 report_latex/*.nav
 report_latex/*.out
 report_latex/*.snm
+report_latex/*.synctex.gz
+report_latex/*.toc
 report_latex/*.vrb
-report_latex/*.fls
-report_latex/*.fdb_latexmk
 
 # === OS & IDEs ===
 .DS_Store
 .vscode/
 .idea/
 *.swp
+*.swo

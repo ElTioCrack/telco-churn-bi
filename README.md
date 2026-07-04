@@ -4,6 +4,8 @@
 
 Este proyecto tiene como objetivo identificar clientes con alta probabilidad de abandonar un servicio de telecomunicaciones (churn) y convertir ese conocimiento en información útil para tomar decisiones de negocio. La idea principal es entender por qué los clientes se van y, a partir de eso, construir un modelo predictivo que ayude a anticipar fugas y diseñar acciones de retención más efectivas.
 
+Los datos usados para este análisis provienen del dataset de Kaggle: https://www.kaggle.com/datasets/blastchar/telco-customer-churn. Allí encontramos información realista sobre clientes de una empresa de telecomunicaciones, lo que nos permite trabajar con un problema muy común en el mundo de los negocios: la pérdida de clientes.
+
 ## Lógica del proyecto
 
 El flujo del proyecto se puede resumir en cuatro pasos principales:
